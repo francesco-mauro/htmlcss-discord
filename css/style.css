@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* RESET  */
 
 /* COMMON */
@@ -11,17 +12,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px dotted black;
     width: 80%;
     margin: 12px
 }
 
+.button-background{
+    background-color: white; /* Colore di sfondo */
+    color: black; /* Colore del testo */
+    padding: 1px 20px; /* Spaziatura interna: alto/basso, destro/sinistro */
+    text-align: center; /* Allineamento del testo al centro */
+    display: inline-block; /* Rende il div in linea, adattandosi al contenuto */
+    border-radius: 50px; /* Rendi i lati destro e sinistro a semicerchio */
+}
 /* Header  */
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #add8e6;
+    background-color: #255ee9;
     min-height: 30px;
 }
 
@@ -31,13 +39,23 @@ header>div {
 
 .main-upper {
     height: 20px;
-    background-color: orange;
+
+    /* debug */
+    /* background-color: orange; */
 }
 
 .upper-left {
     text-align: left;
     width: 20%;
-    border-right: 2px dotted black;
+
+    /* debug */
+    /* border-right: 2px dotted black; */
+}
+
+.discord-logo {
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 
 .upper-center {
@@ -47,15 +65,21 @@ header>div {
 
 .upper-right {
     width: 20%;
-    border-left: 2px dotted black;
     text-align: right;
+
+    /* debug */
+    /* border-left: 2px dotted black; */
+
 }
+
 /* Header  */
 
 /* main */
 /* <!-- first main container  --> */
 .im-blue {
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+
     height: 150px;
     display: flex;
     justify-content: center;
@@ -68,6 +92,7 @@ header>div {
     width: 65%;
     border: 2px dotted black;
 }
+
 /* <!-- first main container  --> */
 
 /* <!-- second main container  --> */
@@ -176,4 +201,5 @@ header>div {
     height: 20px;
     background-color: pink;
 }
+
 /* <!-- <footer> --> */
