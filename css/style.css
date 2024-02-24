@@ -11,6 +11,14 @@ a {
     text-decoration: none;
 }
 
+ul{
+    list-style-type: none;
+}
+
+.color-purpleblue{
+    color: #7289da;
+}
+
 /* RESET  */
 
 /* COMMON */
@@ -32,6 +40,22 @@ a {
     width: 100%;
     height: 100%;
     margin: auto;
+}
+
+.margin-left-20{
+    margin-left: 20px;
+}
+
+.margin-top-5{
+    margin-top: 5px;
+}
+
+.margin-left-5{
+    margin-left: 5px;
+}
+
+.text-color-white{
+    color: white;
 }
 
 /* COMMON */
@@ -203,32 +227,55 @@ div a {
     flex-direction: column;
 }
 
+div h3{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.button-adventure {
+    background-color: #7289da;
+    color: black;
+    margin-top: 12px;
+    padding: 10px;
+    text-align: center;
+    /* display: inline-block;  */
+    border-radius: 50px;
+}
+
+
 /* <!-- fifth main container  --> */
 
 /* <!-- sixth main container  --> */
 .black {
     background-color: rgb(33, 30, 30);
-    min-height: 200px;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid white; */
 }
 
 .dark-pink {
-    background-color: rgb(227, 68, 94);
+    /* background-color: rgb(227, 68, 94); */
     width: calc(100%/3);
     height: 200px;
 }
 
 .sea-green {
-    background-color: rgb(27, 167, 160);
+    /* background-color: rgb(27, 167, 160); */
     width: calc(100%/6);
     height: 200px;
 }
 
-.white-border {
+/* .white-border {
     border-right: 2px dotted white;
+} */
+
+.flag{
+    height: 16px;
+
 }
 
 /* <!-- sixth main container  --> */
@@ -248,20 +295,30 @@ div a {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    height: 40px;
+    height: 70px;
     margin-top: 12px;
-    background-color: rgb(27, 167, 160);
+    border-top: 2px solid #7289da;
 }
 
 .bottom-little-box {
     text-align: center;
     width: 12%;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
 }
 
 .color-bottom-little-box {
     height: 20px;
     background-color: pink;
 }
+
+.button-bottom-little-box {
+    background-color: #7289da;
+    color: black;
+    margin-top: 0px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 50px;
+}
+
 
 /* <!-- <footer> --> */
